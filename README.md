@@ -1,1 +1,1 @@
-# ProtoDB
+# DuoProto
