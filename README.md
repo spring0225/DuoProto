@@ -88,7 +88,7 @@ def get_custom_data():
 Run training with the DuoProto framework:
 
 ```bash
-bash train.sh
+bash scripts/train.sh
 ```
 
 Or customize training parameters:
