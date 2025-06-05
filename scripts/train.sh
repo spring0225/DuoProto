@@ -1,0 +1,11 @@
+python3 main.py \
+    --model="ReVit_avg" --k 1 --stage=1 --patch_size=32 --window_size=7 \
+    --dataset="CUSTOM_DATASET" --device="cuda:0" \
+    --batch_size=8 --epoch=150 \
+    --num_classes=2  --test_size 0.3 --balanced_sampler=True -settings="B" \
+    --early_stopping --patience 20 --monitor_metric loss --loss_type ce  \
+    --mode="train"  \
+    --prototype_momentum 0.9 \
+    --er_ce_lambda 1.0 --proto_lambda 0.6 --proto_sep_lambda 0.8 --er_rank_lambda 0.5 --align_lambda 0.1\
+    --cache_data --cache_split --val_batch_size 8 --align_type l2 --init_prototype batch_mean \
+    --n_batches_multiphase=30 --n_batches_singlephase=30 --num_workers 6
