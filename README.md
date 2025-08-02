@@ -83,6 +83,10 @@ Run training with the DuoProto framework:
 bash scripts/train.sh
 ```
 
+### Inference
+
+Inference is performed automatically after training.
+
 ## File Structure
 
 ```
