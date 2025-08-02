@@ -23,6 +23,8 @@ pip install -r requirements.txt
 
 ## Data Preparation
 
+Note: This project uses private medical data collected from hospital collaborations, which cannot be publicly released due to patient privacy and institutional regulations. Therefore, we do not provide access to the original dataset. If you wish to adapt this framework to your own data, please follow the format described below.
+
 ### Data Format
 
 Your data should be organized with the following structure:
